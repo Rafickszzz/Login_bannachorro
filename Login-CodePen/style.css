@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: "Secular One"
+}
+body{
+  background-image:url(https://garden.spoonflower.com/c/2926970/p/f/m/kc0OgHczwq1AcicTNK674fWgAfa2IqvglWJ2W-17Y7z20wiDeU_h2w/Bananaz%20Doge%20Bananaz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;     
+}
+.conteiner{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  margin-top: 100px;
+}
+
+.card{
+  background-color: #DCDCDC80;
+  padding:30px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 1px 0px #FFA50060;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFA500;
+}
+.label-float input{
+  width:100%;
+  padding: 6px;
+  display: inline-block;
+  border:0;
+  border-bottom: 1px solid #FFA500;
+  background-color:transparent;
+  outline:none;
+  min-width: 190px;
+  font-size:20px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+}
+
+.label-float{
+ position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #F0E68C;
+  
+}
+
+.label-float label{
+  color: #FFA500;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label{
+  font-size:13px;
+  margin-top:0;
+  color:#ebb728;
+}
+button{
+background-color: transparent;
+  border-color: #FFA500;
+  color: #FFA500;
+  padding: 8px;
+  font-weight: bold;
+  font-size:13pt;
+  margin-top:22px;
+  border-radius:4px;
+  cursor: pointer;
+  outline:none;
+  transition: all .4s ease-out;
+}  
+  
+button:hover{
+  background-color:#FFA500;
+  color: rgb(255, 255, 255); 
+}
+
+.justify-center{
+  display:flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top:10%;
+  margin-bottom:10%;
+  width:60%;
+}
+p   {
+    color:#FFA500;
+    font-size: 14pt;
+    text 
+}
+
+a{
+  color:#6A4722;
+  text-decoration:none;
+  font-weight:bold;
+  transition:all .4s ease-out;
+}
+
+a:hover{
+  color:#C96700;
+  
+}
